@@ -1,0 +1,9 @@
+# codeforces A. Watermelon
+UserInput = int(input())
+if UserInput == 2:
+    print("NO")
+elif UserInput % 2 == 0 and UserInput > 0:
+    print("YES")
+else:
+    print("NO")
+
